@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11878F8229A75BFD00F52A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878F8129A75BFD00F52A98 /* AppDelegate.swift */; };
-		11878F8429A75BFD00F52A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878F8329A75BFD00F52A98 /* SceneDelegate.swift */; };
-		11878F8629A75BFD00F52A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878F8529A75BFD00F52A98 /* ViewController.swift */; };
-		11878F8929A75BFD00F52A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11878F8729A75BFD00F52A98 /* Main.storyboard */; };
-		11878F8B29A75BFF00F52A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11878F8A29A75BFF00F52A98 /* Assets.xcassets */; };
-		11878F8E29A75BFF00F52A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11878F8C29A75BFF00F52A98 /* LaunchScreen.storyboard */; };
+		11878FA229A75D1800F52A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878FA129A75D1800F52A98 /* AppDelegate.swift */; };
+		11878FA429A75D1800F52A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878FA329A75D1800F52A98 /* SceneDelegate.swift */; };
+		11878FA629A75D1800F52A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878FA529A75D1800F52A98 /* ViewController.swift */; };
+		11878FA929A75D1800F52A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11878FA729A75D1800F52A98 /* Main.storyboard */; };
+		11878FAB29A75D1900F52A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11878FAA29A75D1900F52A98 /* Assets.xcassets */; };
+		11878FAE29A75D1900F52A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11878FAC29A75D1900F52A98 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11878F7E29A75BFD00F52A98 /* IIMJobs.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIMJobs.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		11878F8129A75BFD00F52A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11878F8329A75BFD00F52A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11878F8529A75BFD00F52A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11878F8829A75BFD00F52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		11878F8A29A75BFF00F52A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11878F8D29A75BFF00F52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		11878F8F29A75BFF00F52A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11878F9E29A75D1800F52A98 /* IIMJobs.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIMJobs.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11878FA129A75D1800F52A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11878FA329A75D1800F52A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11878FA529A75D1800F52A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11878FA829A75D1800F52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11878FAA29A75D1900F52A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11878FAD29A75D1900F52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11878FAF29A75D1900F52A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11878F7B29A75BFD00F52A98 /* Frameworks */ = {
+		11878F9B29A75D1800F52A98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11878F7529A75BFD00F52A98 = {
+		11878F9529A75D1800F52A98 = {
 			isa = PBXGroup;
 			children = (
-				11878F8029A75BFD00F52A98 /* IIMJobs.com */,
-				11878F7F29A75BFD00F52A98 /* Products */,
+				11878FA029A75D1800F52A98 /* IIMJobs.com */,
+				11878F9F29A75D1800F52A98 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		11878F7F29A75BFD00F52A98 /* Products */ = {
+		11878F9F29A75D1800F52A98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11878F7E29A75BFD00F52A98 /* IIMJobs.com.app */,
+				11878F9E29A75D1800F52A98 /* IIMJobs.com.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11878F8029A75BFD00F52A98 /* IIMJobs.com */ = {
+		11878FA029A75D1800F52A98 /* IIMJobs.com */ = {
 			isa = PBXGroup;
 			children = (
-				11878F8129A75BFD00F52A98 /* AppDelegate.swift */,
-				11878F8329A75BFD00F52A98 /* SceneDelegate.swift */,
-				11878F8529A75BFD00F52A98 /* ViewController.swift */,
-				11878F8729A75BFD00F52A98 /* Main.storyboard */,
-				11878F8A29A75BFF00F52A98 /* Assets.xcassets */,
-				11878F8C29A75BFF00F52A98 /* LaunchScreen.storyboard */,
-				11878F8F29A75BFF00F52A98 /* Info.plist */,
+				11878FA129A75D1800F52A98 /* AppDelegate.swift */,
+				11878FA329A75D1800F52A98 /* SceneDelegate.swift */,
+				11878FA529A75D1800F52A98 /* ViewController.swift */,
+				11878FA729A75D1800F52A98 /* Main.storyboard */,
+				11878FAA29A75D1900F52A98 /* Assets.xcassets */,
+				11878FAC29A75D1900F52A98 /* LaunchScreen.storyboard */,
+				11878FAF29A75D1900F52A98 /* Info.plist */,
 			);
 			path = IIMJobs.com;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11878F7D29A75BFD00F52A98 /* IIMJobs.com */ = {
+		11878F9D29A75D1800F52A98 /* IIMJobs.com */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11878F9229A75BFF00F52A98 /* Build configuration list for PBXNativeTarget "IIMJobs.com" */;
+			buildConfigurationList = 11878FB229A75D1900F52A98 /* Build configuration list for PBXNativeTarget "IIMJobs.com" */;
 			buildPhases = (
-				11878F7A29A75BFD00F52A98 /* Sources */,
-				11878F7B29A75BFD00F52A98 /* Frameworks */,
-				11878F7C29A75BFD00F52A98 /* Resources */,
+				11878F9A29A75D1800F52A98 /* Sources */,
+				11878F9B29A75D1800F52A98 /* Frameworks */,
+				11878F9C29A75D1800F52A98 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = IIMJobs.com;
 			productName = IIMJobs.com;
-			productReference = 11878F7E29A75BFD00F52A98 /* IIMJobs.com.app */;
+			productReference = 11878F9E29A75D1800F52A98 /* IIMJobs.com.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		11878F7629A75BFD00F52A98 /* Project object */ = {
+		11878F9629A75D1800F52A98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					11878F7D29A75BFD00F52A98 = {
+					11878F9D29A75D1800F52A98 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 11878F7929A75BFD00F52A98 /* Build configuration list for PBXProject "IIMJobs.com" */;
+			buildConfigurationList = 11878F9929A75D1800F52A98 /* Build configuration list for PBXProject "IIMJobs.com" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 11878F7529A75BFD00F52A98;
-			productRefGroup = 11878F7F29A75BFD00F52A98 /* Products */;
+			mainGroup = 11878F9529A75D1800F52A98;
+			productRefGroup = 11878F9F29A75D1800F52A98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11878F7D29A75BFD00F52A98 /* IIMJobs.com */,
+				11878F9D29A75D1800F52A98 /* IIMJobs.com */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		11878F7C29A75BFD00F52A98 /* Resources */ = {
+		11878F9C29A75D1800F52A98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11878F8E29A75BFF00F52A98 /* LaunchScreen.storyboard in Resources */,
-				11878F8B29A75BFF00F52A98 /* Assets.xcassets in Resources */,
-				11878F8929A75BFD00F52A98 /* Main.storyboard in Resources */,
+				11878FAE29A75D1900F52A98 /* LaunchScreen.storyboard in Resources */,
+				11878FAB29A75D1900F52A98 /* Assets.xcassets in Resources */,
+				11878FA929A75D1800F52A98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		11878F7A29A75BFD00F52A98 /* Sources */ = {
+		11878F9A29A75D1800F52A98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11878F8629A75BFD00F52A98 /* ViewController.swift in Sources */,
-				11878F8229A75BFD00F52A98 /* AppDelegate.swift in Sources */,
-				11878F8429A75BFD00F52A98 /* SceneDelegate.swift in Sources */,
+				11878FA629A75D1800F52A98 /* ViewController.swift in Sources */,
+				11878FA229A75D1800F52A98 /* AppDelegate.swift in Sources */,
+				11878FA429A75D1800F52A98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11878F8729A75BFD00F52A98 /* Main.storyboard */ = {
+		11878FA729A75D1800F52A98 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11878F8829A75BFD00F52A98 /* Base */,
+				11878FA829A75D1800F52A98 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		11878F8C29A75BFF00F52A98 /* LaunchScreen.storyboard */ = {
+		11878FAC29A75D1900F52A98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11878F8D29A75BFF00F52A98 /* Base */,
+				11878FAD29A75D1900F52A98 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		11878F9029A75BFF00F52A98 /* Debug */ = {
+		11878FB029A75D1900F52A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		11878F9129A75BFF00F52A98 /* Release */ = {
+		11878FB129A75D1900F52A98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		11878F9329A75BFF00F52A98 /* Debug */ = {
+		11878FB329A75D1900F52A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		11878F9429A75BFF00F52A98 /* Release */ = {
+		11878FB429A75D1900F52A98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -339,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11878F7929A75BFD00F52A98 /* Build configuration list for PBXProject "IIMJobs.com" */ = {
+		11878F9929A75D1800F52A98 /* Build configuration list for PBXProject "IIMJobs.com" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11878F9029A75BFF00F52A98 /* Debug */,
-				11878F9129A75BFF00F52A98 /* Release */,
+				11878FB029A75D1900F52A98 /* Debug */,
+				11878FB129A75D1900F52A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11878F9229A75BFF00F52A98 /* Build configuration list for PBXNativeTarget "IIMJobs.com" */ = {
+		11878FB229A75D1900F52A98 /* Build configuration list for PBXNativeTarget "IIMJobs.com" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11878F9329A75BFF00F52A98 /* Debug */,
-				11878F9429A75BFF00F52A98 /* Release */,
+				11878FB329A75D1900F52A98 /* Debug */,
+				11878FB429A75D1900F52A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 11878F7629A75BFD00F52A98 /* Project object */;
+	rootObject = 11878F9629A75D1800F52A98 /* Project object */;
 }
