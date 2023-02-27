@@ -7,76 +7,255 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11878FA229A75D1800F52A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878FA129A75D1800F52A98 /* AppDelegate.swift */; };
-		11878FA429A75D1800F52A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878FA329A75D1800F52A98 /* SceneDelegate.swift */; };
-		11878FA629A75D1800F52A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11878FA529A75D1800F52A98 /* ViewController.swift */; };
-		11878FA929A75D1800F52A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11878FA729A75D1800F52A98 /* Main.storyboard */; };
-		11878FAB29A75D1900F52A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11878FAA29A75D1900F52A98 /* Assets.xcassets */; };
-		11878FAE29A75D1900F52A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11878FAC29A75D1900F52A98 /* LaunchScreen.storyboard */; };
+		117D7DB729A7948E00C43091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DB629A7948E00C43091 /* AppDelegate.swift */; };
+		117D7DB929A7948E00C43091 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DB829A7948E00C43091 /* SceneDelegate.swift */; };
+		117D7DBB29A7948E00C43091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DBA29A7948E00C43091 /* ViewController.swift */; };
+		117D7DBE29A7948E00C43091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117D7DBC29A7948E00C43091 /* Main.storyboard */; };
+		117D7DC029A7948F00C43091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117D7DBF29A7948F00C43091 /* Assets.xcassets */; };
+		117D7DC329A7948F00C43091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117D7DC129A7948F00C43091 /* LaunchScreen.storyboard */; };
+		117D7DCC29A794B000C43091 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DBA29A7948E00C43091 /* ViewController.swift */; };
+		117D7DCD29A794B000C43091 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DB629A7948E00C43091 /* AppDelegate.swift */; };
+		117D7DCE29A794B000C43091 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DB829A7948E00C43091 /* SceneDelegate.swift */; };
+		117D7DD129A794B000C43091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117D7DC129A7948F00C43091 /* LaunchScreen.storyboard */; };
+		117D7DD229A794B000C43091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117D7DBF29A7948F00C43091 /* Assets.xcassets */; };
+		117D7DD329A794B000C43091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117D7DBC29A7948E00C43091 /* Main.storyboard */; };
+		117D7DE429A891C800C43091 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DE329A891C800C43091 /* CommonFunctions.swift */; };
+		117D7DE629A891EF00C43091 /* AppUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DE529A891EF00C43091 /* AppUserDefault.swift */; };
+		117D7DE829A891FD00C43091 /* ApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DE729A891FD00C43091 /* ApiKey.swift */; };
+		117D7DEA29A8920700C43091 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DE929A8920700C43091 /* AppConstants.swift */; };
+		117D7DEE29A89C1100C43091 /* AppNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DEB29A89C1100C43091 /* AppNetworking.swift */; };
+		117D7DEF29A89C1100C43091 /* AppNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DEB29A89C1100C43091 /* AppNetworking.swift */; };
+		117D7DF029A89C1100C43091 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DEC29A89C1100C43091 /* WebServices.swift */; };
+		117D7DF129A89C1100C43091 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DEC29A89C1100C43091 /* WebServices.swift */; };
+		117D7DF229A89C1100C43091 /* Webservice+EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DED29A89C1100C43091 /* Webservice+EndPoints.swift */; };
+		117D7DF329A89C1100C43091 /* Webservice+EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DED29A89C1100C43091 /* Webservice+EndPoints.swift */; };
+		117D7DF829A89C4100C43091 /* DemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DF529A89C4100C43091 /* DemoViewModel.swift */; };
+		117D7DF929A89C4100C43091 /* DemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DF529A89C4100C43091 /* DemoViewModel.swift */; };
+		117D7DFA29A89C4100C43091 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DF729A89C4100C43091 /* DemoModel.swift */; };
+		117D7DFB29A89C4100C43091 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117D7DF729A89C4100C43091 /* DemoModel.swift */; };
+		1CCEE413118330B6E51B4B59 /* Pods_IIMJobs_com.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D838A85AB176F65AECD8E9 /* Pods_IIMJobs_com.framework */; };
+		3AA4BB581F5913525FBCA953 /* Pods_Hirist_com.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D9F3AC8C317A80D6CD7F77 /* Pods_Hirist_com.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11878F9E29A75D1800F52A98 /* IIMJobs.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIMJobs.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		11878FA129A75D1800F52A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11878FA329A75D1800F52A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11878FA529A75D1800F52A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11878FA829A75D1800F52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		11878FAA29A75D1900F52A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11878FAD29A75D1900F52A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		11878FAF29A75D1900F52A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117D7DB329A7948E00C43091 /* IIMJobs.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IIMJobs.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		117D7DB629A7948E00C43091 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		117D7DB829A7948E00C43091 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		117D7DBA29A7948E00C43091 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		117D7DBD29A7948E00C43091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		117D7DBF29A7948F00C43091 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		117D7DC229A7948F00C43091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		117D7DC429A7948F00C43091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117D7DD729A794B000C43091 /* Hirist.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hirist.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		117D7DD829A794B000C43091 /* Hirist.com-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Hirist.com-Info.plist"; path = "/Users/mradulatray/Desktop/IIMJobs.com+Hirist.com/IIMJobs.com/Hirist.com-Info.plist"; sourceTree = "<absolute>"; };
+		117D7DE329A891C800C43091 /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		117D7DE529A891EF00C43091 /* AppUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefault.swift; sourceTree = "<group>"; };
+		117D7DE729A891FD00C43091 /* ApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKey.swift; sourceTree = "<group>"; };
+		117D7DE929A8920700C43091 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		117D7DEB29A89C1100C43091 /* AppNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworking.swift; sourceTree = "<group>"; };
+		117D7DEC29A89C1100C43091 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		117D7DED29A89C1100C43091 /* Webservice+EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Webservice+EndPoints.swift"; sourceTree = "<group>"; };
+		117D7DF529A89C4100C43091 /* DemoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewModel.swift; sourceTree = "<group>"; };
+		117D7DF729A89C4100C43091 /* DemoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModel.swift; sourceTree = "<group>"; };
+		13D838A85AB176F65AECD8E9 /* Pods_IIMJobs_com.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IIMJobs_com.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D9F3AC8C317A80D6CD7F77 /* Pods_Hirist_com.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hirist_com.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D3B97E0C816AFB97A03105 /* Pods-Hirist.com.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hirist.com.debug.xcconfig"; path = "Target Support Files/Pods-Hirist.com/Pods-Hirist.com.debug.xcconfig"; sourceTree = "<group>"; };
+		7C0EBA1ADF4D52E2BA927C2E /* Pods-IIMJobs.com.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IIMJobs.com.release.xcconfig"; path = "Target Support Files/Pods-IIMJobs.com/Pods-IIMJobs.com.release.xcconfig"; sourceTree = "<group>"; };
+		93BB95E1922944D3C653CEB6 /* Pods-Hirist.com.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hirist.com.release.xcconfig"; path = "Target Support Files/Pods-Hirist.com/Pods-Hirist.com.release.xcconfig"; sourceTree = "<group>"; };
+		FE27F314A8BF3E86D5914D3B /* Pods-IIMJobs.com.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IIMJobs.com.debug.xcconfig"; path = "Target Support Files/Pods-IIMJobs.com/Pods-IIMJobs.com.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11878F9B29A75D1800F52A98 /* Frameworks */ = {
+		117D7DB029A7948E00C43091 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCEE413118330B6E51B4B59 /* Pods_IIMJobs_com.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117D7DCF29A794B000C43091 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA4BB581F5913525FBCA953 /* Pods_Hirist_com.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11878F9529A75D1800F52A98 = {
+		117D7DAA29A7948E00C43091 = {
 			isa = PBXGroup;
 			children = (
-				11878FA029A75D1800F52A98 /* IIMJobs.com */,
-				11878F9F29A75D1800F52A98 /* Products */,
+				117D7DB529A7948E00C43091 /* IIMJobs.com */,
+				117D7DB429A7948E00C43091 /* Products */,
+				151E5D46DE86353D9700BC0E /* Pods */,
+				AB9989D0C39DA6511F8F1566 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		11878F9F29A75D1800F52A98 /* Products */ = {
+		117D7DB429A7948E00C43091 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11878F9E29A75D1800F52A98 /* IIMJobs.com.app */,
+				117D7DB329A7948E00C43091 /* IIMJobs.com.app */,
+				117D7DD729A794B000C43091 /* Hirist.com.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11878FA029A75D1800F52A98 /* IIMJobs.com */ = {
+		117D7DB529A7948E00C43091 /* IIMJobs.com */ = {
 			isa = PBXGroup;
 			children = (
-				11878FA129A75D1800F52A98 /* AppDelegate.swift */,
-				11878FA329A75D1800F52A98 /* SceneDelegate.swift */,
-				11878FA529A75D1800F52A98 /* ViewController.swift */,
-				11878FA729A75D1800F52A98 /* Main.storyboard */,
-				11878FAA29A75D1900F52A98 /* Assets.xcassets */,
-				11878FAC29A75D1900F52A98 /* LaunchScreen.storyboard */,
-				11878FAF29A75D1900F52A98 /* Info.plist */,
+				117D7DDF29A7A5A300C43091 /* Appdelegate */,
+				117D7DE029A7A5A800C43091 /* Controller */,
+				117D7DDE29A7A59C00C43091 /* StoryBoard */,
+				117D7DDD29A7A59800C43091 /* Services */,
+				117D7DDC29A7A59400C43091 /* Resources */,
+				117D7DDB29A7A59000C43091 /* Helpers */,
+				117D7DDA29A7A58B00C43091 /* New Group */,
+				117D7DD929A7964400C43091 /* Hirist */,
+				117D7DC429A7948F00C43091 /* Info.plist */,
 			);
 			path = IIMJobs.com;
+			sourceTree = "<group>";
+		};
+		117D7DD929A7964400C43091 /* Hirist */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DD829A794B000C43091 /* Hirist.com-Info.plist */,
+			);
+			path = Hirist;
+			sourceTree = "<group>";
+		};
+		117D7DDA29A7A58B00C43091 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		117D7DDB29A7A59000C43091 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DE229A8917200C43091 /* Custom Classes */,
+				117D7DE129A8916E00C43091 /* AppUtility */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		117D7DDC29A7A59400C43091 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DBF29A7948F00C43091 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		117D7DDD29A7A59800C43091 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DEB29A89C1100C43091 /* AppNetworking.swift */,
+				117D7DED29A89C1100C43091 /* Webservice+EndPoints.swift */,
+				117D7DEC29A89C1100C43091 /* WebServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		117D7DDE29A7A59C00C43091 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DC129A7948F00C43091 /* LaunchScreen.storyboard */,
+				117D7DBC29A7948E00C43091 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		117D7DDF29A7A5A300C43091 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DB829A7948E00C43091 /* SceneDelegate.swift */,
+				117D7DB629A7948E00C43091 /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		117D7DE029A7A5A800C43091 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DBA29A7948E00C43091 /* ViewController.swift */,
+				117D7DF629A89C4100C43091 /* Model */,
+				117D7DF429A89C4100C43091 /* ViewModel */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		117D7DE129A8916E00C43091 /* AppUtility */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DE529A891EF00C43091 /* AppUserDefault.swift */,
+				117D7DE729A891FD00C43091 /* ApiKey.swift */,
+				117D7DE929A8920700C43091 /* AppConstants.swift */,
+			);
+			path = AppUtility;
+			sourceTree = "<group>";
+		};
+		117D7DE229A8917200C43091 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DE329A891C800C43091 /* CommonFunctions.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		117D7DF429A89C4100C43091 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DF529A89C4100C43091 /* DemoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		117D7DF629A89C4100C43091 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				117D7DF729A89C4100C43091 /* DemoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		151E5D46DE86353D9700BC0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50D3B97E0C816AFB97A03105 /* Pods-Hirist.com.debug.xcconfig */,
+				93BB95E1922944D3C653CEB6 /* Pods-Hirist.com.release.xcconfig */,
+				FE27F314A8BF3E86D5914D3B /* Pods-IIMJobs.com.debug.xcconfig */,
+				7C0EBA1ADF4D52E2BA927C2E /* Pods-IIMJobs.com.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB9989D0C39DA6511F8F1566 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48D9F3AC8C317A80D6CD7F77 /* Pods_Hirist_com.framework */,
+				13D838A85AB176F65AECD8E9 /* Pods_IIMJobs_com.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11878F9D29A75D1800F52A98 /* IIMJobs.com */ = {
+		117D7DB229A7948E00C43091 /* IIMJobs.com */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11878FB229A75D1900F52A98 /* Build configuration list for PBXNativeTarget "IIMJobs.com" */;
+			buildConfigurationList = 117D7DC729A7948F00C43091 /* Build configuration list for PBXNativeTarget "IIMJobs.com" */;
 			buildPhases = (
-				11878F9A29A75D1800F52A98 /* Sources */,
-				11878F9B29A75D1800F52A98 /* Frameworks */,
-				11878F9C29A75D1800F52A98 /* Resources */,
+				40C62F23E0DF9FB18B8D005E /* [CP] Check Pods Manifest.lock */,
+				117D7DAF29A7948E00C43091 /* Sources */,
+				117D7DB029A7948E00C43091 /* Frameworks */,
+				117D7DB129A7948E00C43091 /* Resources */,
+				250C13124C59B7B9B3784613 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,25 +263,44 @@
 			);
 			name = IIMJobs.com;
 			productName = IIMJobs.com;
-			productReference = 11878F9E29A75D1800F52A98 /* IIMJobs.com.app */;
+			productReference = 117D7DB329A7948E00C43091 /* IIMJobs.com.app */;
+			productType = "com.apple.product-type.application";
+		};
+		117D7DCA29A794B000C43091 /* Hirist.com */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 117D7DD429A794B000C43091 /* Build configuration list for PBXNativeTarget "Hirist.com" */;
+			buildPhases = (
+				F8461AC81BC88AF38C0114DF /* [CP] Check Pods Manifest.lock */,
+				117D7DCB29A794B000C43091 /* Sources */,
+				117D7DCF29A794B000C43091 /* Frameworks */,
+				117D7DD029A794B000C43091 /* Resources */,
+				9404C6599E3E8813C7B4DBAE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hirist.com;
+			productName = IIMJobs.com;
+			productReference = 117D7DD729A794B000C43091 /* Hirist.com.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		11878F9629A75D1800F52A98 /* Project object */ = {
+		117D7DAB29A7948E00C43091 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					11878F9D29A75D1800F52A98 = {
+					117D7DB229A7948E00C43091 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 11878F9929A75D1800F52A98 /* Build configuration list for PBXProject "IIMJobs.com" */;
+			buildConfigurationList = 117D7DAE29A7948E00C43091 /* Build configuration list for PBXProject "IIMJobs.com" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +308,171 @@
 				en,
 				Base,
 			);
-			mainGroup = 11878F9529A75D1800F52A98;
-			productRefGroup = 11878F9F29A75D1800F52A98 /* Products */;
+			mainGroup = 117D7DAA29A7948E00C43091;
+			productRefGroup = 117D7DB429A7948E00C43091 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11878F9D29A75D1800F52A98 /* IIMJobs.com */,
+				117D7DB229A7948E00C43091 /* IIMJobs.com */,
+				117D7DCA29A794B000C43091 /* Hirist.com */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		11878F9C29A75D1800F52A98 /* Resources */ = {
+		117D7DB129A7948E00C43091 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11878FAE29A75D1900F52A98 /* LaunchScreen.storyboard in Resources */,
-				11878FAB29A75D1900F52A98 /* Assets.xcassets in Resources */,
-				11878FA929A75D1800F52A98 /* Main.storyboard in Resources */,
+				117D7DC329A7948F00C43091 /* LaunchScreen.storyboard in Resources */,
+				117D7DC029A7948F00C43091 /* Assets.xcassets in Resources */,
+				117D7DBE29A7948E00C43091 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117D7DD029A794B000C43091 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117D7DD129A794B000C43091 /* LaunchScreen.storyboard in Resources */,
+				117D7DD229A794B000C43091 /* Assets.xcassets in Resources */,
+				117D7DD329A794B000C43091 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		250C13124C59B7B9B3784613 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IIMJobs.com/Pods-IIMJobs.com-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IIMJobs.com/Pods-IIMJobs.com-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IIMJobs.com/Pods-IIMJobs.com-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40C62F23E0DF9FB18B8D005E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IIMJobs.com-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9404C6599E3E8813C7B4DBAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hirist.com/Pods-Hirist.com-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hirist.com/Pods-Hirist.com-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hirist.com/Pods-Hirist.com-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8461AC81BC88AF38C0114DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hirist.com-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		11878F9A29A75D1800F52A98 /* Sources */ = {
+		117D7DAF29A7948E00C43091 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11878FA629A75D1800F52A98 /* ViewController.swift in Sources */,
-				11878FA229A75D1800F52A98 /* AppDelegate.swift in Sources */,
-				11878FA429A75D1800F52A98 /* SceneDelegate.swift in Sources */,
+				117D7DBB29A7948E00C43091 /* ViewController.swift in Sources */,
+				117D7DF229A89C1100C43091 /* Webservice+EndPoints.swift in Sources */,
+				117D7DF829A89C4100C43091 /* DemoViewModel.swift in Sources */,
+				117D7DB729A7948E00C43091 /* AppDelegate.swift in Sources */,
+				117D7DFA29A89C4100C43091 /* DemoModel.swift in Sources */,
+				117D7DE429A891C800C43091 /* CommonFunctions.swift in Sources */,
+				117D7DE629A891EF00C43091 /* AppUserDefault.swift in Sources */,
+				117D7DEA29A8920700C43091 /* AppConstants.swift in Sources */,
+				117D7DE829A891FD00C43091 /* ApiKey.swift in Sources */,
+				117D7DB929A7948E00C43091 /* SceneDelegate.swift in Sources */,
+				117D7DEE29A89C1100C43091 /* AppNetworking.swift in Sources */,
+				117D7DF029A89C1100C43091 /* WebServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117D7DCB29A794B000C43091 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117D7DFB29A89C4100C43091 /* DemoModel.swift in Sources */,
+				117D7DCC29A794B000C43091 /* ViewController.swift in Sources */,
+				117D7DF129A89C1100C43091 /* WebServices.swift in Sources */,
+				117D7DCD29A794B000C43091 /* AppDelegate.swift in Sources */,
+				117D7DCE29A794B000C43091 /* SceneDelegate.swift in Sources */,
+				117D7DEF29A89C1100C43091 /* AppNetworking.swift in Sources */,
+				117D7DF329A89C1100C43091 /* Webservice+EndPoints.swift in Sources */,
+				117D7DF929A89C4100C43091 /* DemoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11878FA729A75D1800F52A98 /* Main.storyboard */ = {
+		117D7DBC29A7948E00C43091 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11878FA829A75D1800F52A98 /* Base */,
+				117D7DBD29A7948E00C43091 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		11878FAC29A75D1900F52A98 /* LaunchScreen.storyboard */ = {
+		117D7DC129A7948F00C43091 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11878FAD29A75D1900F52A98 /* Base */,
+				117D7DC229A7948F00C43091 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +480,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		11878FB029A75D1900F52A98 /* Debug */ = {
+		117D7DC529A7948F00C43091 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +540,7 @@
 			};
 			name = Debug;
 		};
-		11878FB129A75D1900F52A98 /* Release */ = {
+		117D7DC629A7948F00C43091 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,8 +594,9 @@
 			};
 			name = Release;
 		};
-		11878FB329A75D1900F52A98 /* Debug */ = {
+		117D7DC829A7948F00C43091 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE27F314A8BF3E86D5914D3B /* Pods-IIMJobs.com.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,7 +615,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "demo.com.IIMJobs-com";
+				PRODUCT_BUNDLE_IDENTIFIER = "IIMJobs.com.IIMJobs-com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,8 +623,9 @@
 			};
 			name = Debug;
 		};
-		11878FB429A75D1900F52A98 /* Release */ = {
+		117D7DC929A7948F00C43091 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0EBA1ADF4D52E2BA927C2E /* Pods-IIMJobs.com.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,7 +644,67 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "demo.com.IIMJobs-com";
+				PRODUCT_BUNDLE_IDENTIFIER = "IIMJobs.com.IIMJobs-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		117D7DD529A794B000C43091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D3B97E0C816AFB97A03105 /* Pods-Hirist.com.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3DD962965;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hirist.com-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-D Hirist";
+				PRODUCT_BUNDLE_IDENTIFIER = "IIMJobs.com.IIMJobs-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		117D7DD629A794B000C43091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BB95E1922944D3C653CEB6 /* Pods-Hirist.com.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3DD962965;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hirist.com-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-D Hirist";
+				PRODUCT_BUNDLE_IDENTIFIER = "IIMJobs.com.IIMJobs-com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,25 +715,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11878F9929A75D1800F52A98 /* Build configuration list for PBXProject "IIMJobs.com" */ = {
+		117D7DAE29A7948E00C43091 /* Build configuration list for PBXProject "IIMJobs.com" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11878FB029A75D1900F52A98 /* Debug */,
-				11878FB129A75D1900F52A98 /* Release */,
+				117D7DC529A7948F00C43091 /* Debug */,
+				117D7DC629A7948F00C43091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11878FB229A75D1900F52A98 /* Build configuration list for PBXNativeTarget "IIMJobs.com" */ = {
+		117D7DC729A7948F00C43091 /* Build configuration list for PBXNativeTarget "IIMJobs.com" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11878FB329A75D1900F52A98 /* Debug */,
-				11878FB429A75D1900F52A98 /* Release */,
+				117D7DC829A7948F00C43091 /* Debug */,
+				117D7DC929A7948F00C43091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		117D7DD429A794B000C43091 /* Build configuration list for PBXNativeTarget "Hirist.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117D7DD529A794B000C43091 /* Debug */,
+				117D7DD629A794B000C43091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 11878F9629A75D1800F52A98 /* Project object */;
+	rootObject = 117D7DAB29A7948E00C43091 /* Project object */;
 }

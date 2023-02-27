@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Hirist.com' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Hirist.com
+  pod 'SwiftyJSON'
+  pod 'SwiftLint'
+
+end
+
+target 'IIMJobs.com' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for IIMJobs.com
+  pod 'SwiftyJSON'
+  pod 'SwiftLint'
+
+end

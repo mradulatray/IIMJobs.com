@@ -1,0 +1,6 @@
+framework module Pods_IIMJobs_com {
+  umbrella header "Pods-IIMJobs.com-umbrella.h"
+
+  export *
+  module * { export * }
+}
